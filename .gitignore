@@ -13,3 +13,25 @@ exar-webui/node_modules/@esbuild/win32-x64/esbuild.exe
 
 # Auto-managed: files larger than 5 MB
 .gitnexus/lbug
+
+# hygiene
+node_modules/
+dist/
+build/
+bin/
+obj/
+.venv/
+__pycache__/
+*.log
+logs/
+.env
+.env.*
+*.tsbuildinfo
+.cache/
+coverage/
+*.zip
+*.7z
+graphify-out/
+.gitnexus/
+!.env.example
+/.cursor/skills/caveman-setup/SKILL.md
