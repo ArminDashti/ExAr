@@ -10,6 +10,7 @@
     "d1:migrate:remote": "wrangler d1 migrations apply exar --remote"
   },
   "dependencies": {
+    "@toon-format/toon": "^4.4.0",
     "hono": "^4.7.2"
   },
   "devDependencies": {
